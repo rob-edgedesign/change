@@ -1,0 +1,9 @@
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 980px) and (max-width: 1400px) {
+  .header-block,
+  .content-block,
+  .footer-block {
+     width: 960px;
+  }
+
+}

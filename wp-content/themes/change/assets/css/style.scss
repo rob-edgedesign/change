@@ -1,0 +1,41 @@
+/*
+Theme Name edge_starter
+Theme URI:
+Description: A clean, minimalist theme for edge_starter
+Version: 1.0.1
+Author: Steve Edge Design Ltd
+Author URI: http://www.steve-edge.com
+*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@import "variables";
+
+@import "mixins";
+
+@import "layout";
+
+@import "header";
+
+@import "footer";
+
+@import "pages/site";
+
+@import "instagram";
+
+@import "misc";
+
+@import "responsive/responsive";

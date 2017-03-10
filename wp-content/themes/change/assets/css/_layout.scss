@@ -1,0 +1,69 @@
+body {
+	font-family:'Sabon LT W01 Roman';
+	background-color: #ffffff;
+	color: $dark_grey;
+	font-size: 14px;
+	margin:0;
+	padding:0;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+body, html {
+   height: 100%;
+}
+
+.wrapper {
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+
+.header,
+.content,
+.footer  {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  z-index: 10;
+  opacity: 1;
+}
+
+.header-block,
+.content-block,
+.footer-block {
+  position:relative;
+  width: 1200px;
+  display:block;
+  margin: auto;
+  padding: 0;
+  z-index: 2;
+}
+
+.half-block,
+.third-block,
+.quarter-block {
+  display: block;
+  position: relative;
+  float: left;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.half-block {
+  width: 580px;
+}
+
+.third-block {
+  width: 380px;
+}
+
+.quarter-block {
+  width: 280px;
+}

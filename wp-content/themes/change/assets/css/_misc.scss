@@ -1,0 +1,67 @@
+/*
+Hidden Classes: .hide-on-responsive,
+Visible Classes: .show-on-responsive,
+
+Misc */
+
+textarea, input, select {
+	outline: none;
+	-webkit-appearance: none;
+   -moz-appearance: none;
+	border-radius: 0;
+   resize: vertical;
+}
+
+p {
+	margin:0;
+   padding:0 0 15px 0;
+}
+
+img {
+	border: 0;
+   -webkit-backface-visibility: hidden;
+}
+
+a {
+   color: $dark_grey;
+   text-decoration: none;
+   padding: 0;
+   margin: 0;
+}
+
+a:hover {
+}
+
+:focus {
+   outline:none;
+}
+
+.load-fade {
+	opacity: 0;
+}
+
+/* Spacers */
+
+.header-spacer-crew {
+	padding-top: 200px;
+}
+
+.top-push {
+   padding-top: 20px;
+}
+
+.twenty-spacer {
+	padding-top: 20px;
+}
+
+.sixty-spacer {
+   padding-top: 60px;
+}
+
+.forty-spacer {
+   padding-top: 40px;
+}
+
+.eighty-spacer {
+   padding-top: 80px;
+}
